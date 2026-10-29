@@ -1,8 +1,10 @@
 {
   "name": "intercom_mcp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Export and sanitize Intercom conversations through the Intercom MCP server",
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "export": "node export.js"
   },
